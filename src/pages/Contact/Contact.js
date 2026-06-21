@@ -1,6 +1,22 @@
+import React from 'react';
+import styles from './Contact.module.css';
+
+export default function Contact() {
+  return (
+    <section className={styles.wip}>
+      <div className={styles.wipInner}>
+        <div className={styles.wipIcon}>&#9881;</div>
+        <h1>Work in Progress</h1>
+        <p>This page is currently being built. Please check back soon.</p>
+        <a href="/" className="btn-outline">Back to Home</a>
+      </div>
+    </section>
+  );
+}
+
+/* ============================================================
 import React, { useState } from 'react';
 import { MapPin, User, Factory, Clock, CheckCircle } from 'lucide-react';
-import styles from './Contact.module.css';
 
 const INFO = [
   {
@@ -50,7 +66,6 @@ export default function Contact() {
       <section className={styles.section}>
         <div className="container">
           <div className={styles.grid}>
-            {/* Info */}
             <div className={styles.infoPanel}>
               <h2>Company Information</h2>
               {INFO.map(({ Icon, title, text }) => (
@@ -73,7 +88,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Form */}
             <div className={styles.formCard}>
               {sent ? (
                 <div className={styles.success}>
@@ -164,3 +178,4 @@ export default function Contact() {
     </>
   );
 }
+============================================================ */

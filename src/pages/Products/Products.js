@@ -1,6 +1,22 @@
+import React from 'react';
+import styles from './Products.module.css';
+
+export default function Products() {
+  return (
+    <section className={styles.wip}>
+      <div className={styles.wipInner}>
+        <div className={styles.wipIcon}>&#9881;</div>
+        <h1>Work in Progress</h1>
+        <p>This page is currently being built. Please check back soon.</p>
+        <a href="/" className="btn-outline">Back to Home</a>
+      </div>
+    </section>
+  );
+}
+
+/* ============================================================
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Products.module.css';
 
 const ALL = 'All';
 
@@ -142,3 +158,4 @@ export default function Products() {
     </>
   );
 }
+============================================================ */

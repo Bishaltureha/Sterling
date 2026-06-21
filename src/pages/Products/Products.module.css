@@ -155,3 +155,39 @@
   color: var(--silver);
   margin-bottom: 1.5rem;
 }
+
+.wip {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+  background: #f9f7f4;
+}
+.wipInner {
+  text-align: center;
+  max-width: 480px;
+}
+.wipIcon {
+  font-size: 4rem;
+  color: #b8941f;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  animation: spin 6s linear infinite;
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.wipInner h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+.wipInner p {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
