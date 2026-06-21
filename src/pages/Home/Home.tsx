@@ -53,7 +53,7 @@ export default function Home() {
           <div className={styles.heroStats}>
             <div className={styles.stat}><strong>35+</strong><span>Years</span></div>
             <div className={styles.stat}><strong>50+</strong><span>Employees</span></div>
-            <div className={styles.stat}><strong>₹100Cr</strong><span>Turnover</span></div>
+            <div className={styles.stat}><strong>&#8377;100Cr</strong><span>Turnover</span></div>
             <div className={styles.stat}><strong>11+</strong><span>Product Lines</span></div>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
             <iframe
               src={`https://www.youtube.com/embed/${YOUTUBE_ID}`}
               title="Sterling Enterprises Corporate Video"
-              frameBorder="0"
+              frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

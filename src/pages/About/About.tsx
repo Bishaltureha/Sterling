@@ -4,16 +4,16 @@ import styles from './About.module.css';
 
 const STATS = [
   { value: '1988', label: 'Year Founded' },
-  { value: '35+', label: 'Years of Experience' },
+  { value: '35+',  label: 'Years of Experience' },
   { value: '26–50', label: 'Employees' },
   { value: '₹100Cr', label: 'Annual Turnover' },
 ];
 
 const VALUES = [
-  { Icon: Target,    title: 'Precision',      desc: 'Every can and container is manufactured to exact specifications with tight tolerances.' },
-  { Icon: Lightbulb, title: 'Innovation',     desc: 'Continuously upgrading machinery and processes to stay ahead in packaging technology.' },
-  { Icon: Handshake, title: 'Reliability',    desc: 'On-time delivery and consistent quality that our clients have trusted for decades.' },
-  { Icon: Leaf,      title: 'Sustainability', desc: 'Tin is 100% recyclable — we take pride in offering eco-friendly packaging solutions.' },
+  { Icon: Target,     title: 'Precision',      desc: 'Every can and container is manufactured to exact specifications with tight tolerances.' },
+  { Icon: Lightbulb, title: 'Innovation',      desc: 'Continuously upgrading machinery and processes to stay ahead in packaging technology.' },
+  { Icon: Handshake, title: 'Reliability',     desc: 'On-time delivery and consistent quality that our clients have trusted for decades.' },
+  { Icon: Leaf,      title: 'Sustainability',  desc: 'Tin is 100% recyclable — we take pride in offering eco-friendly packaging solutions.' },
 ];
 
 export default function About() {
