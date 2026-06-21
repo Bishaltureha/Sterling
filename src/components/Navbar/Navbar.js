@@ -5,8 +5,8 @@ import styles from './Navbar.module.css';
 const links = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
-  { to: '/products', label: 'Products' },
-  { to: '/contact', label: 'Contact' },
+  // { to: '/products', label: 'Products' },
+  // { to: '/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
